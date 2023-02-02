@@ -48,7 +48,6 @@ public class Bootstrap implements CommandLineRunner {
         categoryRepository.save(exotic);
         categoryRepository.save(nuts);
 
-
         System.out.println("Data Loaded: " + categoryRepository.count() );
     }
 
